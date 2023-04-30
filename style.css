@@ -1,8 +1,7 @@
 /* Base styles */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
 }
 
 /* Centered container for the page content */
@@ -11,14 +10,18 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: transparent;
-  filter: blur(1rem);
+background-color: aliceblue ;
+filter: opacity(10px);
+  width: min-content;
   margin: 140px auto 0;
   text-align: center;
   border: 3px solid;
   border-radius: 20px;
   box-shadow: 10px 10px;
   padding: 40px;
+}
+#main > h2{
+  font-size: 23px;
 }
 
 /* Styling for individual boxes */
@@ -35,10 +38,10 @@ input[type="color"] {
   color: navy;
   appearance: none;
   border: none;
-  width: 30px;
+  width: 60px;
   height: 30px;
   border-radius: 20%;
-  background-color: #252525;
+  background-color: #252525e9;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
