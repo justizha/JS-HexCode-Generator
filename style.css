@@ -24,8 +24,7 @@ filter: opacity(10px);
   font-size: 23px;
 }
 
-/* Styling for individual boxes */
-#box {
+input[type='text'] {
   padding: 10px;
   border-radius: 1px;
   box-shadow: 5px 5px;
@@ -46,19 +45,16 @@ input[type="color"] {
 }
 
 
-/* Styling for buttons */
 #btn {
   padding: 10px;
   font-size: large;
   border-radius: 5px;
 }
 
-/* Hover state for buttons */
 #btn:hover {
   background-color: azure;
 }
 
-/* Active state for buttons */
 #btn:active {
   box-shadow: 2px 5px #666;
   transform: translateY(4px);
