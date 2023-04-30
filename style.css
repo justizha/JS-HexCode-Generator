@@ -1,0 +1,60 @@
+/* Base styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+/* Centered container for the page content */
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 140px auto 0;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+  padding: 40px;
+}
+
+/* Styling for individual boxes */
+#box {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  border: 1px solid;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+input[type="color"] {
+  color: navy;
+  appearance: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  background-color: #252525;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Styling for buttons */
+#btn {
+  padding: 10px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+/* Hover state for buttons */
+#btn:hover {
+  background-color: azure;
+}
+
+/* Active state for buttons */
+#btn:active {
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
+}
