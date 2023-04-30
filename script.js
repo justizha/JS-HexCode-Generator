@@ -10,5 +10,6 @@ const myColor = () => {
         copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value)
     }
+    
 
 document.getElementById('color').addEventListener('input', myColor);

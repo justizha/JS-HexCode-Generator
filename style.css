@@ -27,7 +27,7 @@ filter: opacity(10px);
 /* Styling for individual boxes */
 #box {
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 1px;
   box-shadow: 5px 5px;
   border: 1px solid;
   margin: 20px 0;
