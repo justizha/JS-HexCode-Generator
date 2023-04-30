@@ -1,4 +1,4 @@
-  const myColor = () => {
+const myColor = () => {
         const color = document.getElementById('color').value;
         document.body.style.backgroundColor = color;
         document.getElementById("box").value = color;
@@ -11,6 +11,4 @@
         navigator.clipboard.writeText(copyText.value)
     }
 
-
-
-    document.getElementById('color').addEventListener('input', myColor);
+document.getElementById('color').addEventListener('input', myColor);

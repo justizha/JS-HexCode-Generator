@@ -11,6 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: transparent;
+  filter: blur(1rem);
   margin: 140px auto 0;
   text-align: center;
   border: 3px solid;
