@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 background-color: aliceblue ;
 filter: opacity(10px);
-  width: min-content;
+  width: 65%;
   margin: 140px auto 0;
   text-align: center;
   border: 3px solid;
