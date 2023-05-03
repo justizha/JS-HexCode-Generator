@@ -1,5 +1,6 @@
 const myColor = () => {
         const color = document.getElementById('color').value;
+        const ColorSection =  document.getElementById('sectionColor')
         document.body.style.backgroundColor = color;
         document.getElementById("box").value = color;
     }
@@ -14,15 +15,3 @@ const myColor = () => {
 
 document.getElementById('color').addEventListener('input', myColor);
 
-
-var createCounter = function(n) {
-    let count = n
-    return function() {
-        count++;
-       return count
-    };
-};
-const counter = createCounter(10)
-console.log(counter());
-console.log(counter());
-console.log(counter());

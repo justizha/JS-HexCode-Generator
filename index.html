@@ -7,16 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HexGenerator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+
 </head>
 
 <body>
-    <div id="main">
-        <h2>Hex Code Generator :</h2>
+    <div class="card">
+        <h2>Hex Code Generator</h2>
         <input type="color" id="color">
-        <p>Hex code:</p>
-        <input type="text" id="box" readonly disabled>
-        <button id="btn" onclick="Copy()">Copy</button>
+        <input type="text" disabled readonly id="box">
+        <br>
+        <button id="btn">Copy!</button>
+        <a href="https://github.com/justizha/JS-HexCode-Generator" target="_blank">
+            <p>souce code </p>
+        </a>
+
     </div>
+
 </body>
 <script src="script.js">
 
