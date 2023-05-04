@@ -1,6 +1,5 @@
 const myColor = () => {
         const color = document.getElementById('color').value;
-        const ColorSection =  document.getElementById('sectionColor')
         document.body.style.backgroundColor = color;
         document.getElementById("box").value = color;
     }
